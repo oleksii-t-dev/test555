@@ -99,3 +99,11 @@
     }
   }
 }
+@media only screen and (max-width: 991px) {
+  .reset {
+    &__title {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+}

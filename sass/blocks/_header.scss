@@ -1,9 +1,13 @@
 .header {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
   .logo {
     width: 32px;
     height: 32px;
     object-fit: contain;
-    background: url('../img/css_sprites.png') -158px -66px;
+    background: url("../img/css_sprites.png") -158px -66px;
   }
   .nav-link {
     font-size: 16px;
@@ -62,6 +66,8 @@
       width: 32px;
       height: 20px;
       margin: 15px;
+      margin-top: 14px;
+      margin-bottom: 14px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -185,6 +191,8 @@
 }
 @media only screen and (max-width: 991px) {
   .header {
+    padding-top: 0px;
+    padding-bottom: 0px;
     &__logo {
       padding-left: 15px;
     }
@@ -193,7 +201,7 @@
       margin-right: 15px;
     }
     .nav-item {
-      border-radius: 0!important;
+      border-radius: 0 !important;
     }
     .form {
       &__wrap {
@@ -213,9 +221,9 @@
         }
       }
     }
-    .container-fluid{
-      padding-left: 0!important;
-      padding-right: 0!important;
+    .container-fluid {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
     }
   }
 }
