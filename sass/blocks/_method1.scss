@@ -224,6 +224,11 @@
 
 @media only screen and (max-width: 991px) {
   .method1 {
+    &__title {
+      &_divider {
+        width: 100%;
+      }
+    }
     &__logo {
       &_wrap {
         margin-left: 0;
